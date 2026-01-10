@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Defs>
+<!-- XMT_Cryptimorph mutations -->
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_CryptiStomach</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph stomach</label>
+		<description>Carriers of this gene express similar digestive tracts as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_ImprovedStomach</hediff>
+						<bodyparts>
+							<li>Stomach</li>
+						</bodyparts>
+					</li>	
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Eye</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph vision</label>
+		<description>Carriers of this gene express similar ocular abilities as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_InternalEye</hediff>
+						<bodyparts>
+							<li>Eye</li>
+							<li>Eye</li>
+						</bodyparts>
+					</li>	
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Ear</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph hearing</label>
+		<description>Carriers of this gene express similar hearing abilities as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_InternalEar</hediff>
+						<bodyparts>
+							<li>Ear</li>
+							<li>Ear</li>
+						</bodyparts>
+					</li>	
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Nose</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph olfactory</label>
+		<description>Carriers of this gene express similar olfactory abilities as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_InternalNose</hediff>
+						<bodyparts>
+							<li>Nose</li>
+						</bodyparts>
+					</li>	
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_InnerJaw</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph jaws</label>
+		<description>Carriers of this gene express similar jaws as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_SecondJaw</hediff>
+						<bodyparts>
+							<li>Jaw</li>
+						</bodyparts>
+					</li>	
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Tongue</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph inner jaw</label>
+		<description>Carriers of this gene express similar inner jaws as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_SpikeTongue</hediff>
+						<bodyparts>
+							<li>Tongue</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>	
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_VoiceBox</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph vocalization</label>
+		<description>Carriers of this gene express similar vocalization as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_WarpedNeck</hediff>
+						<bodyparts>
+							<li>Neck</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>	
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Wafers</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph respiration</label>
+		<description>Carriers of this gene express similar respiratory tracts as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_BreathingWafers</hediff>
+						<bodyparts>
+							<li>Lung</li>
+							<li>Lung</li>
+						</bodyparts>
+					</li>
+					<li>
+						<hediff>XMT_BreathingTubes</hediff>
+						<bodyparts>
+							<li>Spine</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_CryptiTail</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph spiked tail</label>
+		<description>Carriers of this gene express similar tails as cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_BladedTail</hediff>
+						<bodyparts>
+							<li>Pelvis</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>	
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Pheromones</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>cryptimorph pheromones</label>
+		<description>Carriers of this gene express friendly pheromones to cryptimorphs.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_FriendlyGland</hediff>
+						<bodyparts>
+							<li>Torso</li>
+						</bodyparts>
+					</li>
+					<li>
+						<hediff>XMT_LoverGland</hediff>
+						<bodyparts>
+							<li>Torso</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<!-- XMT_VariableMutations -->
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Mesoskeletonization</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>Mesoskeletonization</label>
+		<description>Carriers of this gene express cryptimorph bone structure.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_SkeletonInjection</hediff>
+						<bodyparts>
+							<li>Torso</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<HediffDef ParentName="XenomorphtypeBase">
+		<defName>XMT_SkeletonInjection</defName>
+		<label>discoloration</label>
+		<description>A discoloration spreads out from multiple injection sites on the body.</description>
+		<makesSickThought>true</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+		<comps>
+			<li Class="Xenomorphtype.HediffCompProperties_PerPartPromoter">
+				<HediffPromotionsByPart>
+					<li>
+						<increaseSeverity>1</increaseSeverity>
+						<hediffDef>XMT_Mesoskeleton</hediffDef>
+					</li>
+				</HediffPromotionsByPart>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Muscular restructuring</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>Muscle restructuring</label>
+		<description>Carriers of this gene express cryptimorph muscle structure.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_MuscleInjection</hediff>
+						<bodyparts>
+							<li>Torso</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<HediffDef ParentName="XenomorphtypeBase">
+		<defName>XMT_MuscleInjection</defName>
+		<label>discoloration</label>
+		<description>A discoloration spreads out from multiple injection sites on the body.</description>
+		<makesSickThought>true</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+		<comps>
+			<li Class="Xenomorphtype.HediffCompProperties_PerPartPromoter">
+				<HediffPromotionsByPart>
+					<li>
+						<increaseSeverity>1</increaseSeverity>
+						<hediffDef>XMT_MuscleRestructure</hediffDef>
+					</li>
+				</HediffPromotionsByPart>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Marrow</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>Acidic marrow</label>
+		<description>Carriers of this gene express cryptimorph acid blood.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_MarrowInjection</hediff>
+						<bodyparts>
+							<li>Sternum</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<HediffDef ParentName="XenomorphtypeBase">
+		<defName>XMT_MarrowInjection</defName>
+		<label>discoloration</label>
+		<description>A discoloration spreads out from multiple injection sites on the body.</description>
+		<makesSickThought>true</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+		<comps>
+			<li Class="Xenomorphtype.HediffCompProperties_PerPartPromoter">
+				<HediffPromotionsByPart>
+					<li>
+						<increaseSeverity>0.8</increaseSeverity>
+						<hediffDef>XMT_AcidbloodMarrow</hediffDef>
+					</li>
+				</HediffPromotionsByPart>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>XMT_Fluorine_based_fatty_tissue</defName>
+		<geneClass>Xenomorphtype.XenomorphGene</geneClass>
+		<label>Adipose conversion</label>
+		<description>Carriers of this gene express cryptimorph fat tissue.</description>
+		<iconPath>UI/GeneIcons/XMT_Gene_Unknown</iconPath>
+		<displayOrderInCategory>135</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<modExtensions>
+			<li Class="VEF.Genes.GeneExtension">		
+				<hideGene>true</hideGene>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>XMT_FatInjection</hediff>
+						<bodyparts>
+							<li>Torso</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<HediffDef ParentName="XenomorphtypeBase">
+		<defName>XMT_FatInjection</defName>
+		<label>discoloration</label>
+		<description>A discoloration spreads out from multiple injection sites on the body.</description>
+		<makesSickThought>true</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+		<comps>
+			<li Class="Xenomorphtype.HediffCompProperties_PerPartPromoter">
+				<HediffPromotionsByPart>
+					<li>
+						<increaseSeverity>1</increaseSeverity>
+						<hediffDef>XMT_AcidFat</hediffDef>
+					</li>
+				</HediffPromotionsByPart>
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>
