@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+        			<xpath>/Defs/ThingDef[defName="XMT_Starbeast_AlienRace"]/comps/li[@Class="Xenomorphtype.CompPerfectOrganismProperties"]/ImpossibleHediffs</xpath>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="XMT_Starbeast_AlienRace"]/comps/li[@Class="Xenomorphtype.CompPerfectOrganismProperties"]/ImpossibleHediffs</xpath>
+					<value>
+							<li>XMT_AcidbloodMarrow</li>
+							<li>XMT_AcidFat</li>
+							<li>XMT_MuscleRestructure</li>
+							<li>XMT_Mesoskeleton</li>
+							<li>XMT_LoverGland</li>
+							<li>XMT_FriendlyGland</li>
+							<li>XMT_BladedTail</li>
+							<li>XMT_BreathingTubes</li>
+							<li>XMT_BreathingWafers</li>
+							<li>XMT_WarpedNeck</li>
+							<li>XMT_SpikeTongue</li>
+							<li>XMT_SecondJaw</li>
+							<li>XMT_InternalNose</li>
+							<li>XMT_InternalEar</li>
+							<li>XMT_InternalEye</li>
+							<li>XMT_ImprovedStomach</li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+        			<xpath>/Defs/ThingDef[defName="XMT_Royal_AlienRace"]/comps/li[@Class="Xenomorphtype.CompPerfectOrganismProperties"]/ImpossibleHediffs</xpath>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="XMT_Royal_AlienRace"]/comps/li[@Class="Xenomorphtype.CompPerfectOrganismProperties"]/ImpossibleHediffs</xpath>
+					<value>
+							<li>XMT_AcidbloodMarrow</li>
+							<li>XMT_AcidFat</li>
+							<li>XMT_MuscleRestructure</li>
+							<li>XMT_Mesoskeleton</li>
+							<li>XMT_LoverGland</li>
+							<li>XMT_FriendlyGland</li>
+							<li>XMT_BladedTail</li>
+							<li>XMT_BreathingTubes</li>
+							<li>XMT_BreathingWafers</li>
+							<li>XMT_WarpedNeck</li>
+							<li>XMT_SpikeTongue</li>
+							<li>XMT_SecondJaw</li>
+							<li>XMT_InternalNose</li>
+							<li>XMT_InternalEar</li>
+							<li>XMT_InternalEye</li>
+							<li>XMT_ImprovedStomach</li>
+					</value>
+			</li>
+		</operations>
+	</Operation></Patch>
