@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+        			<xpath>/Defs/GeneDef[defName="XMT_HybridGenes"]/genes</xpath>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/GeneDef[defName="XMT_HybridGenes"]/genes</xpath>
+					<value>
+						<li>XMT_Fluorine_based_fatty_tissue</li>
+						<li>XMT_Marrow</li>
+						<li>XMT_Muscular restructuring</li>
+						<li>XMT_Mesoskeletonization</li>
+						<li>XMT_Tail</li>
+						<li>XMT_Pheromones</li>
+						<li>XMT_Wafers</li>
+						<li>XMT_VoiceBox</li>
+						<li>XMT_Tongue</li>
+						<li>XMT_InnerJaw</li>
+						<li>XMT_Nose</li>
+						<li>XMT_Ear</li>
+						<li>XMT_Eye</li>
+						<li>XMT_CryptiStomach</li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
